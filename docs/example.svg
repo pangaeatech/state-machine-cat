@@ -1,0 +1,128 @@
+<!DOCTYPE svg [<!ENTITY nbsp "&#160;">]><svg width="100%" height="446pt" viewBox="0.00 0.00 514.43 446.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 442)">
+<title>state transitions</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-442 510.4279,-442 510.4279,4 -4,4"></polygon>
+<!-- initial -->
+<g id="node1" class="node">
+<title>initial</title>
+<ellipse fill="#000000" stroke="#000000" stroke-width="2" cx="253.6279" cy="-432.5" rx="5.5" ry="5.5"></ellipse>
+</g>
+<!-- Received -->
+<g id="node2" class="node">
+<title>Received</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="289.6279,-399 217.6279,-399 217.6279,-363 289.6279,-363 289.6279,-399"></polygon>
+<text text-anchor="start" x="228.6235" y="-377.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Received</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M229.9612,-364C229.9612,-364 277.2945,-364 277.2945,-364 282.9612,-364 288.6279,-369.6667 288.6279,-375.3333 288.6279,-375.3333 288.6279,-386.6667 288.6279,-386.6667 288.6279,-392.3333 282.9612,-398 277.2945,-398 277.2945,-398 229.9612,-398 229.9612,-398 224.2945,-398 218.6279,-392.3333 218.6279,-386.6667 218.6279,-386.6667 218.6279,-375.3333 218.6279,-375.3333 218.6279,-369.6667 224.2945,-364 229.9612,-364"></path>
+</g>
+<!-- initial&#45;&gt;Received -->
+<g id="edge1" class="edge">
+<title>initial-&gt;Received</title>
+<path fill="none" stroke="#000000" d="M253.6279,-426.9886C253.6279,-422.6293 253.6279,-416.1793 253.6279,-409.4801"></path>
+<polygon fill="#000000" stroke="#000000" points="257.128,-409.0122 253.6279,-399.0122 250.128,-409.0122 257.128,-409.0122"></polygon>
+<text text-anchor="middle" x="255.0174" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- Assigned -->
+<g id="node3" class="node">
+<title>Assigned</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="289.1279,-323 218.1279,-323 218.1279,-287 289.1279,-287 289.1279,-323"></polygon>
+<text text-anchor="start" x="229.4535" y="-301.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Assigned</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M230.4612,-288C230.4612,-288 276.7945,-288 276.7945,-288 282.4612,-288 288.1279,-293.6667 288.1279,-299.3333 288.1279,-299.3333 288.1279,-310.6667 288.1279,-310.6667 288.1279,-316.3333 282.4612,-322 276.7945,-322 276.7945,-322 230.4612,-322 230.4612,-322 224.7945,-322 219.1279,-316.3333 219.1279,-310.6667 219.1279,-310.6667 219.1279,-299.3333 219.1279,-299.3333 219.1279,-293.6667 224.7945,-288 230.4612,-288"></path>
+</g>
+<!-- Received&#45;&gt;Assigned -->
+<g id="edge2" class="edge">
+<title>Received-&gt;Assigned</title>
+<path fill="none" stroke="#000000" d="M253.6279,-362.9891C253.6279,-354.1566 253.6279,-343.3099 253.6279,-333.3965"></path>
+<polygon fill="#000000" stroke="#000000" points="257.128,-333.145 253.6279,-323.145 250.128,-333.1451 257.128,-333.145"></polygon>
+<text text-anchor="start" x="253.6279" y="-346" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Inbox tracker &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="253.6279" y="-334" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">or bot assign owner &nbsp;&nbsp;</text>
+</g>
+<!-- Labeled -->
+<g id="node4" class="node labeled">
+<title>Labeled</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="285.6279,-247 221.6279,-247 221.6279,-211 285.6279,-211 285.6279,-247"></polygon>
+<text text-anchor="start" x="232.2841" y="-225.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Labeled</text>
+<path fill="none" stroke="#000000" stroke-width="2" d="M233.9612,-212C233.9612,-212 273.2945,-212 273.2945,-212 278.9612,-212 284.6279,-217.6667 284.6279,-223.3333 284.6279,-223.3333 284.6279,-234.6667 284.6279,-234.6667 284.6279,-240.3333 278.9612,-246 273.2945,-246 273.2945,-246 233.9612,-246 233.9612,-246 228.2945,-246 222.6279,-240.3333 222.6279,-234.6667 222.6279,-234.6667 222.6279,-223.3333 222.6279,-223.3333 222.6279,-217.6667 228.2945,-212 233.9612,-212"></path>
+</g>
+<!-- Assigned&#45;&gt;Labeled -->
+<g id="edge3" class="edge">
+<title>Assigned-&gt;Labeled</title>
+<path fill="none" stroke="#000000" d="M253.6279,-286.9891C253.6279,-278.1566 253.6279,-267.3099 253.6279,-257.3965"></path>
+<polygon fill="#000000" stroke="#000000" points="257.128,-257.145 253.6279,-247.145 250.128,-257.1451 257.128,-257.145"></polygon>
+<text text-anchor="start" x="253.6279" y="-270" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Owner assigns type and &nbsp;&nbsp;</text>
+<text text-anchor="start" x="253.6279" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">feature area label &nbsp;&nbsp;</text>
+</g>
+<!-- Community Review -->
+<g id="node5" class="node">
+<title>Community Review</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="232.1279,-159 107.1279,-159 107.1279,-123 232.1279,-123 232.1279,-159"></polygon>
+<text text-anchor="start" x="118.4643" y="-137.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Community Review</text>
+<path fill="none" stroke="#0000ff" stroke-width="2" d="M119.4612,-124C119.4612,-124 219.7945,-124 219.7945,-124 225.4612,-124 231.1279,-129.6667 231.1279,-135.3333 231.1279,-135.3333 231.1279,-146.6667 231.1279,-146.6667 231.1279,-152.3333 225.4612,-158 219.7945,-158 219.7945,-158 119.4612,-158 119.4612,-158 113.7945,-158 108.1279,-152.3333 108.1279,-146.6667 108.1279,-146.6667 108.1279,-135.3333 108.1279,-135.3333 108.1279,-129.6667 113.7945,-124 119.4612,-124"></path>
+</g>
+<!-- Labeled&#45;&gt;Community Review -->
+<g id="edge4" class="edge">
+<title>Labeled-&gt;Community Review</title>
+<path fill="none" stroke="#000000" d="M221.3877,-222.9423C200.8184,-218.3535 176.8798,-211.4111 170.5979,-203 163.4958,-193.4908 162.3311,-180.6729 163.3069,-169.1598"></path>
+<polygon fill="#000000" stroke="#000000" points="166.7971,-169.4702 164.6959,-159.0858 159.8627,-168.514 166.7971,-169.4702"></polygon>
+<text text-anchor="start" x="170.6279" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Owner or bot assigns &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="170.6279" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">`Backlog Candidates` milestone &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="170.6279" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">to feature requests &nbsp;&nbsp;</text>
+</g>
+<!-- Accepted -->
+<g id="node6" class="node">
+<title>Accepted</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="205.6279,-83 133.6279,-83 133.6279,-47 205.6279,-47 205.6279,-83"></polygon>
+<text text-anchor="start" x="144.6175" y="-61.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Accepted</text>
+<path fill="none" stroke="#006400" stroke-width="2" d="M145.9612,-48C145.9612,-48 193.2945,-48 193.2945,-48 198.9612,-48 204.6279,-53.6667 204.6279,-59.3333 204.6279,-59.3333 204.6279,-70.6667 204.6279,-70.6667 204.6279,-76.3333 198.9612,-82 193.2945,-82 193.2945,-82 145.9612,-82 145.9612,-82 140.2945,-82 134.6279,-76.3333 134.6279,-70.6667 134.6279,-70.6667 134.6279,-59.3333 134.6279,-59.3333 134.6279,-53.6667 140.2945,-48 145.9612,-48"></path>
+</g>
+<!-- Labeled&#45;&gt;Accepted -->
+<g id="edge5" class="edge">
+<title>Labeled-&gt;Accepted</title>
+<path fill="none" stroke="#000000" d="M285.6775,-220.5395C301.0922,-215.7569 317.1851,-209.4551 321.6279,-203 349.8493,-161.9954 353.7219,-129.05 321.6279,-91 314.7908,-82.8942 258.1963,-74.8629 216.0522,-69.9186"></path>
+<polygon fill="#000000" stroke="#000000" points="216.2921,-66.4233 205.9582,-68.7603 215.494,-73.3776 216.2921,-66.4233"></polygon>
+<text text-anchor="start" x="343.6279" y="-138" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Owner assigns `Backlog` milestone &nbsp;&nbsp;</text>
+</g>
+<!-- Community Review&#45;&gt;Accepted -->
+<g id="edge7" class="edge">
+<title>Community Review-&gt;Accepted</title>
+<path fill="none" stroke="#000000" d="M169.5167,-122.8167C169.5043,-120.1938 169.4937,-117.5278 169.4869,-115 169.4643,-106.6667 169.4593,-103.2161 169.4863,-93.2918"></path>
+<polygon fill="#000000" stroke="#000000" points="172.9865,-93.1939 169.5167,-83.1833 165.9865,-93.1727 172.9865,-93.1939"></polygon>
+<text text-anchor="start" x="169.6279" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Bot assigns `Backlog` milestone &nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="169.6279" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">after 20+ upvotes &nbsp;&nbsp;</text>
+</g>
+<!-- Closed -->
+<g id="node7" class="node">
+<title>Closed</title>
+<polygon fill="#ffffff" fill-opacity="0.003922" stroke="transparent" stroke-width="2" points="61.1279,-83 2.1279,-83 2.1279,-47 61.1279,-47 61.1279,-83"></polygon>
+<text text-anchor="start" x="13.4589" y="-61.2" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#000000">Closed</text>
+<path fill="none" stroke="#ff0000" stroke-width="2" d="M14.4612,-48C14.4612,-48 48.7945,-48 48.7945,-48 54.4612,-48 60.1279,-53.6667 60.1279,-59.3333 60.1279,-59.3333 60.1279,-70.6667 60.1279,-70.6667 60.1279,-76.3333 54.4612,-82 48.7945,-82 48.7945,-82 14.4612,-82 14.4612,-82 8.7945,-82 3.1279,-76.3333 3.1279,-70.6667 3.1279,-70.6667 3.1279,-59.3333 3.1279,-59.3333 3.1279,-53.6667 8.7945,-48 14.4612,-48"></path>
+</g>
+<!-- Community Review&#45;&gt;Closed -->
+<g id="edge6" class="edge">
+<title>Community Review-&gt;Closed</title>
+<path fill="none" stroke="#000000" d="M107.0901,-135.0967C63.0954,-130.2941 10.8761,-123.0177 4.0189,-115 -1.56,-108.477 -.8989,-103.2522 4.2655,-92.2781"></path>
+<polygon fill="#000000" stroke="#000000" points="7.476,-93.6824 8.7971,-83.1703 1.2088,-90.5642 7.476,-93.6824"></polygon>
+<text text-anchor="start" x="4.6279" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">After 50 days, bot notifies &nbsp;&nbsp;</text>
+<text text-anchor="start" x="4.6279" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">After 60 days, bot closes the issue &nbsp;&nbsp;</text>
+</g>
+<!-- final -->
+<g id="node8" class="node">
+<title>final</title>
+<ellipse fill="#000000" stroke="#000000" stroke-width="2" cx="75.6279" cy="-9.5" rx="5.5" ry="5.5"></ellipse>
+<ellipse fill="none" stroke="#000000" stroke-width="2" cx="75.6279" cy="-9.5" rx="9.5" ry="9.5"></ellipse>
+</g>
+<!-- Accepted&#45;&gt;final -->
+<g id="edge9" class="edge">
+<title>Accepted-&gt;final</title>
+<path fill="none" stroke="#000000" d="M139.1088,-46.9807C123.7299,-37.9007 105.6556,-27.2291 92.7343,-19.6001"></path>
+<polygon fill="#000000" stroke="#000000" points="94.3784,-16.5063 83.9878,-14.4359 90.8194,-22.5341 94.3784,-16.5063"></polygon>
+<text text-anchor="middle" x="127.0174" y="-30" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+<!-- Closed&#45;&gt;final -->
+<g id="edge8" class="edge">
+<title>Closed-&gt;final</title>
+<path fill="none" stroke="#000000" d="M46.0351,-46.8272C51.549,-39.8722 57.7881,-32.0024 63.1112,-25.2881"></path>
+<polygon fill="#000000" stroke="#000000" points="66.1782,-27.0533 69.6481,-17.0427 60.6929,-22.7045 66.1782,-27.0533"></polygon>
+<text text-anchor="middle" x="63.0174" y="-30" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</g>
+</g>
+</svg>
