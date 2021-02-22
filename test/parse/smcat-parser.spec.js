@@ -16,7 +16,8 @@ const programASTPairs = require("./00-no-transitions.json")
   .concat(require("./05-colors.json"))
   .concat(require("./06-active.json"))
   .concat(require("./07-type.json"))
-  .concat(require("./08-transition-type.json"));
+  .concat(require("./08-transition-type.json"))
+  .concat(require("./09-classes.json"));
 
 const syntaxErrors = require("./10-no-transitions-errors.json")
   .concat(require("./11-transition-errors.json"))
@@ -49,7 +50,7 @@ describe("#parse() - file based - ", () => {
     it(pPair.title, () => {
       const lProgram = fs.readFileSync(
         path.join(__dirname, pPair.programInputFile),
-        "utf-8"
+        "utf8"
       );
       const lAST = parser.parse(lProgram);
 
